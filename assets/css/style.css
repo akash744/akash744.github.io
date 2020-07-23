@@ -1,0 +1,273 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #363535;
+
+}
+
+.logo {
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+
+}
+.logo span{
+    color: orangered;
+}
+
+ul li{
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+ul li a {
+    transition: all 0.3s ease 0s;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    font-family: "Rubik", sans-serif;
+    padding: 15px;
+}
+
+ul li a:hover{
+    color: orangered;
+}
+
+body{
+    background-color: #242424;
+}
+
+#front-page #particles-js{
+    
+    
+    background-image: url('/assets/img/darkbg.jpg');
+
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+      
+  }
+
+
+#front-page .my-face {
+    
+    width: 15%;
+    
+    border-radius: 75px;
+    border: 10px solid white;
+}
+
+#front-page .center-welcome-stuff{
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    width: 100%;
+    
+}
+
+#front-page .center-welcome-stuff h1 {
+    font-size: 50px;
+    position: relative;
+}
+#front-page .center-welcome-stuff #name-ani {
+    font-size: 50px;
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    animation: text_reveal 1s ease forwards;
+    animation-delay: 1.5s;
+
+}
+
+#front-page .center-welcome-stuff span {
+    background-color: orangered;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 0;
+    height: 100%;
+    animation: overlay_box 1s ease;
+    animation-delay: 1s;
+}
+
+@keyframes overlay_box {
+    50%{
+        width: 100%;
+        left: 0;
+
+    }
+    100%{
+        width: 0;
+        left: 100%;
+    }
+}
+
+@keyframes text_reveal {
+    100%{
+        color: orangered;
+    }
+}
+
+#about-section {
+    color: #242424;
+}
+
+#about-section .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 20px;
+    color: white;
+}
+
+#about-section .about-my-face {
+    
+    width: 265px;
+    height: 345px;
+
+    border-radius: 75px;
+    float: left;
+    
+}
+
+#about-section .about-right {
+    padding-left: 500px;
+}
+
+#about-section .about-right h1{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+#about-section .about-right h1 span{
+    color: orangered;
+}
+
+#about-section .about-right h2{
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+}
+
+#about-section .about-right p{
+
+    margin-bottom: 20px;
+}
+
+#about-section .resume_btn {
+
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid orangered;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease;
+    transition-property: background-color, color;
+}
+#about-section .resume_btn:hover {
+
+    
+    color: white;
+    background-color: orangered;
+    
+}
+
+
+#skills-section .skills-container .skills-title {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 50px;
+}
+
+
+#skills-section .skills-container h1{
+    font-size: 40px;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#skills-section .skills-container h1 span{
+    color: orangered;
+}
+
+#skills-section .skills-container .row-1 {
+    display: inline-block;
+}
+
+#skills-section .skills-container .row-2 {
+    display: inline-block;
+}
+
+#skills-section .skills-container .row-3 {
+    display: inline-block;
+}
+
+#skills-section .row-1 .skills-logo img{
+    height: 75px;
+    width: 150px;
+}
+
+#skills-section .row-2 .skills-logo img{
+    height: 75px;
+    width: 150px;
+}
+
+#skills-section .row-3 .skills-logo img{
+    height: 75px;
+    width: 150px;
+}
+
+#skills-section .skills-container {
+    text-align: center;
+    padding: 50px 70px;
+}
+
+#skills-section .skills-container .skills-logo{
+    
+    padding: 50px 100px;
+}
+
+
+#skills-section img {
+    filter: gray;
+    -webkit-filter: grayscale(1); 
+    cursor: pointer;
+}
+
+#skills-section img:hover {
+    filter: none;
+    -webkit-filter: grayscale(0);
+}
+
