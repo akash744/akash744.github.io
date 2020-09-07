@@ -11,35 +11,30 @@ html {
     scroll-behavior: smooth;
 }
 
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 10%;
+.navbar-custom{
     background-color: #363535;
-
 }
 
-.logo {
+.navbar-brand {
     font-size: 35px;
     color: white;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-left: 100px;
 
 }
-.logo span{
+.navbar-brand span{
     color: orangered;
 }
 
-ul li{
+.nav-item{
     display: inline-block;
     padding: 20px 50px;
 }
 
-ul li a {
+.nav-link{
     transition: all 0.3s ease 0s;
     text-transform: uppercase;
     color: white;
@@ -48,7 +43,7 @@ ul li a {
     padding: 15px;
 }
 
-ul li a:hover{
+.nav-link:hover{
     color: orangered;
 }
 
