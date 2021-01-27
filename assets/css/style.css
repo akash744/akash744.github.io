@@ -421,7 +421,7 @@ section{
 }
 
 .projects .title::after{
-    content: "who i am";
+    content: "the best ones";
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -432,6 +432,8 @@ section{
     transform: translateX(-50%)
 
 }
+
+
 
 /* responsive media query start */
 @media (max-width: 1300px) {
