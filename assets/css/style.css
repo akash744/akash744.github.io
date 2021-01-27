@@ -97,7 +97,7 @@ html {
 .front-page .max-width{
     margin: auto 0 auto 40px;
     position: relative;
-    z-index: 999;
+    z-index: 998;
 }
 
 .front-page .front-page-content .text-1{
