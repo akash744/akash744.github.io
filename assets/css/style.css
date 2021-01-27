@@ -308,6 +308,18 @@ section{
     background: none;
 }
 
+.card-body .skill-icon {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.img-fluid{
+    height: 80px;
+}
+
 /*
 .skills .skills-content .right .bars{
     margin-bottom: 15px;
