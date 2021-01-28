@@ -21,4 +21,12 @@ $(document).ready(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
     });
+
+    // typing text animation script
+    var typed = new Typed(".typing", {
+        strings: ["a Student", "Looking for an Internship...", "also", "the Coolest Human alive"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
 });
