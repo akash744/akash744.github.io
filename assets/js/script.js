@@ -24,7 +24,7 @@ $(document).ready(function(){
 
     // typing text animation script
     var typed = new Typed(".typing", {
-        strings: ["a Student", "Looking for an Internship...", "also", "the Coolest Human alive"],
+        strings: ["a Student", "Looking for an Internship...", "also", "so cool I wasn't born, I was defrosted"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
